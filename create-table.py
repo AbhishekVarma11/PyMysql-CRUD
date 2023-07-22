@@ -11,7 +11,7 @@ db_connection = mysql.connector.connect(
 cursor = db_connection.cursor()
 # Example of creating a table
 create_table_query = """
-CREATE TABLE table_name (
+CREATE TABLE test_table (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50),
     age INT
